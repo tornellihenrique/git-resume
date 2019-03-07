@@ -22,16 +22,16 @@ git config --list
 -------------------------------------------------
 ## ESTADOS
 
- 1 UNTRACKED
+- UNTRACKED
  	 - Não visto pelo Git
 
- 2 UNMODIFIED
+- UNMODIFIED
  	 - Sem modificação
 
- 3 MODIFIED
+- MODIFIED
  	 - Editado porem não colocado em imagem
- 
- 4 STAGED
+
+- STAGED
  	 - Pronto para ser commitado
 
 -------------------------------------------------
