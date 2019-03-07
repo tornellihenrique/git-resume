@@ -139,3 +139,39 @@ git reset
 	--mixed ${commit hash} (Desfaz o commit e o add para aquela hash)
 	--hard ${commit hash} (Desfaz o commit, o add e as alterações feitas para aquela hash)
 ```
+- Desfaz o ultimo commit sem perder o codigo local com um novo commit
+```sh
+git revert ${commit}
+```
+## Extras
+#### Stash
+- Guarda as modificações no stash
+```sh
+git stash
+```
+- Lista as modificações no stash
+```sh
+git stash list
+```
+- Aplica as modificações no stash
+```sh
+git stash apply
+```
+- Limpa as modificações guardadas no stash
+```sh
+git stash clear
+```
+### Alias
+- Cria um atalho de comando
+```sh
+git config --global alias.${alias} ${alias command}
+```
+### Tags
+- Cria uma tag no commit e branch atuais
+```sh
+git tag -a ${version} -m ${comment}
+```
+- Envia o push com a tag
+```sh
+git push origin master --tags
+```
