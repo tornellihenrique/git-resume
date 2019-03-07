@@ -12,7 +12,7 @@ git config --global user.email "email@email.com"
 ```
 - Definir editor global
 ```sh
-git config --global core.editor code
+git config --global core.editor ${editor command}
 ```
 - Verificar as info globais
 ```sh
