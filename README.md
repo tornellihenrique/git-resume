@@ -29,7 +29,7 @@ git config --list
  	 - Sem modificação
 
 - MODIFIED
- 	 - Editado porem não colocado em imagem
+ 	 - Editado porem não adicionado ao _stage_
 
 - STAGED
  	 - Pronto para ser commitado
