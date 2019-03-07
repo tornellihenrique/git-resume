@@ -63,6 +63,39 @@ git commit -m "${Comment}"
 ```sh
 git commit -am "${Comment}"
 ```
+- Adicionar repositório remoto
+```sh
+git remote add _origin_ ${git link}
+```
+- Verificar o repositório
+```sh
+git remote
+	-v (verifica endereço)
+```
+- Enviar o repositório local para remoto (inicial)
+```sh
+git push -u origin master
+```
+- Envia o repositório local para remoto
+```sh
+git push
+```
+- Cria uma branch
+```sh
+git checkout -b ${name}
+```
+- Verifica a branch atual
+```sh
+git branch
+```
+- Navega entre banchs
+```sh
+git checkout ${branch}
+```
+- Deleta alguma branch
+```sh
+git branch -D ${branch}
+```
 - Verificar log
 ```sh
 git log 
@@ -79,6 +112,8 @@ git shortlog
 ```sh
 git show ${commit hash}
 ```
+
+## Desfazendo alterações
 - Retornar dir/arq para antes da edição (não adicionado)
 ```sh
 git checkout ${dir/file}
@@ -93,23 +128,4 @@ git reset
 	--soft ${commit hash} (Desfaz o commit para aquela hash)
 	--mixed ${commit hash} (Desfaz o commit e o add para aquela hash)
 	--hard ${commit hash} (Desfaz o commit, o add e as alterações feitas para aquela hash)
-```
-- Adicionar repositório remoto
-```sh
-git remote add _origin_ ${git link}
-```
-
-- Verificar o repositório
-```sh
-git remote
-	-v (verifica endereço)
-```
-- Enviar o repositório local para remoto (inicial)
-```sh
-git push -u origin master
-```
-
-- Envia o repositório local para remoto
-```sh
-git push
 ```
