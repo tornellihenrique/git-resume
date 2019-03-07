@@ -1,6 +1,6 @@
 # GIT E GITHUB
 
- > CONFIGURAÇÕES BÁSICAS
+## CONFIGURAÇÕES BÁSICAS
 
 - Definir nome global
 ```sh
@@ -20,7 +20,7 @@ git config user.${param}
 git config --list
 ```
 -------------------------------------------------
- > ESTADOS
+## ESTADOS
 
  1 UNTRACKED
  	 - Não visto pelo Git
@@ -36,7 +36,7 @@ git config --list
 
 -------------------------------------------------
 
- > REPOSITÓRIO
+## REPOSITÓRIO
 
 - Inicializar repositório
 ```sh
