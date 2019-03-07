@@ -80,6 +80,24 @@ git push -u origin master
 ```sh
 git push
 ```
+- Verificar log
+```sh
+git log 
+	--decorate (info adicionais) 
+	--author="${author}" (filtro por autor)
+	--graph (forma grafica de branchs)
+```
+- Log em ordem alfabética por autores
+```sh
+git shortlog
+	-sn (autores e numero de commits)
+```
+- Informações de algum commit
+```sh
+git show ${commit hash}
+```
+
+## Branchs, Merge e Rebase
 - Cria uma branch
 ```sh
 git checkout -b ${name}
@@ -96,21 +114,13 @@ git checkout ${branch}
 ```sh
 git branch -D ${branch}
 ```
-- Verificar log
+- Faz um merge para a branch atual
 ```sh
-git log 
-	--decorate (info adicionais) 
-	--author="${author}" (filtro por autor)
-	--graph (forma grafica de branchs)
+git merge ${branch}
 ```
-- Log em ordem alfabética por autores
+- Faz um rebase para a branch atual
 ```sh
-git shortlog
-	-sn (autores e numero de commits)
-```
-- Informações de algum commit
-```sh
-git show ${commit hash}
+git rebase ${branch}
 ```
 
 ## Desfazendo alterações
