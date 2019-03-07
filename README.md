@@ -102,7 +102,7 @@ git show ${commit hash}
 ```sh
 git checkout -b ${name}
 ```
-- Verifica a branch atual
+- Lista as branchs
 ```sh
 git branch
 ```
