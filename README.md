@@ -94,3 +94,22 @@ git reset
 	--mixed ${commit hash} (Desfaz o commit e o add para aquela hash)
 	--hard ${commit hash} (Desfaz o commit, o add e as alterações feitas para aquela hash)
 ```
+- Adicionar repositório remoto
+```sh
+git remote add _origin_ ${git link}
+```
+
+- Verificar o repositório
+```sh
+git remote
+	-v (verifica endereço)
+```
+- Enviar o repositório local para remoto (inicial)
+```sh
+git push -u origin master
+```
+
+- Envia o repositório local para remoto
+```sh
+git push
+```
