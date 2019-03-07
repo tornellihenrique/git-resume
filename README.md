@@ -1,6 +1,6 @@
 # GIT E GITHUB
 ## Índice
-- [Configurações Iniciais](https://github.com/tornellihenrique/git-resume/blob/master/README.md#configura%C3%A7%C3%B5es-b%C3%A1sicas)
+- [Configurações Básicas](https://github.com/tornellihenrique/git-resume/blob/master/README.md#configura%C3%A7%C3%B5es-b%C3%A1sicas)
 - [Estados](https://github.com/tornellihenrique/git-resume#estados)
 - [Repositório](https://github.com/tornellihenrique/git-resume#reposit%C3%B3rio)
 - [Branch, Merge e Rebase](https://github.com/tornellihenrique/git-resume#branchs-merge-e-rebase)
