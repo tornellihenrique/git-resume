@@ -110,9 +110,13 @@ git branch
 ```sh
 git checkout ${branch}
 ```
-- Deleta alguma branch
+- Deleta alguma branch local
 ```sh
 git branch -D ${branch}
+```
+- Deleta alguma branch remota
+```sh
+git push origin :${branch}
 ```
 - Faz um merge para a branch atual
 ```sh
@@ -174,4 +178,12 @@ git tag -a ${version} -m ${comment}
 - Envia o push com a tag
 ```sh
 git push origin master --tags
+```
+- Apaga a tag local
+```sh
+git tag -d ${tag}
+```
+- Apaga a tag remota
+```sg
+git push origin :${tag}
 ```
