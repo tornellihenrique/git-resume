@@ -124,6 +124,10 @@ git branch -D ${branch}
 ```sh
 git push origin :${branch}
 ```
+- Renomeia alguma branch
+```sh
+git branch -m ${old-branch} ${new-branch}
+```
 - Faz um merge para a branch atual
 ```sh
 git merge ${branch}
